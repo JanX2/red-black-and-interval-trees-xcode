@@ -1,0 +1,3 @@
+[submodule "External/red-black-and-interval-trees"]
+	path = External/red-black-and-interval-trees
+	url = https://github.com/JanX2/red-black-and-interval-trees.git

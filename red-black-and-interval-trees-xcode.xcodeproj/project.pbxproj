@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3D3716BB18799FF8007277DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D3716BA18799FF8007277DD /* main.cpp */; };
 		3D3716BD18799FF8007277DD /* red_black_and_interval_trees_xcode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D3716BC18799FF8007277DD /* red_black_and_interval_trees_xcode.1 */; };
+		3D3716D61879A0F9007277DD /* interval_tree.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3D3716C51879A0A2007277DD /* interval_tree.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,20 @@
 		3D3716B718799FF8007277DD /* red-black-and-interval-trees-xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "red-black-and-interval-trees-xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3716BA18799FF8007277DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3D3716BC18799FF8007277DD /* red_black_and_interval_trees_xcode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = red_black_and_interval_trees_xcode.1; sourceTree = "<group>"; };
+		3D3716C41879A0A2007277DD /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		3D3716C51879A0A2007277DD /* interval_tree.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = interval_tree.cc; sourceTree = "<group>"; };
+		3D3716C61879A0A2007277DD /* interval_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interval_tree.h; sourceTree = "<group>"; };
+		3D3716C71879A0A2007277DD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3D3716C81879A0A2007277DD /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		3D3716C91879A0A2007277DD /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		3D3716CA1879A0A2007277DD /* old.sets.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = old.sets.hpp; sourceTree = "<group>"; };
+		3D3716CB1879A0A2007277DD /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		3D3716CC1879A0A2007277DD /* RedBlackTree.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RedBlackTree.cc; sourceTree = "<group>"; };
+		3D3716CD1879A0A2007277DD /* RedBlackTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedBlackTree.h; sourceTree = "<group>"; };
+		3D3716CE1879A0A2007277DD /* sets.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sets.hpp; sourceTree = "<group>"; };
+		3D3716CF1879A0A2007277DD /* TemplateStack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TemplateStack.hpp; sourceTree = "<group>"; };
+		3D3716D01879A0A2007277DD /* test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cc; sourceTree = "<group>"; };
+		3D3716D11879A0A2007277DD /* tree_test.tcl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tree_test.tcl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +61,7 @@
 			children = (
 				3D3716B918799FF8007277DD /* red-black-and-interval-trees-xcode */,
 				3D3716B818799FF8007277DD /* Products */,
+				3D3716C31879A0A2007277DD /* red-black-and-interval-trees */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,28 @@
 				3D3716BC18799FF8007277DD /* red_black_and_interval_trees_xcode.1 */,
 			);
 			path = "red-black-and-interval-trees-xcode";
+			sourceTree = "<group>";
+		};
+		3D3716C31879A0A2007277DD /* red-black-and-interval-trees */ = {
+			isa = PBXGroup;
+			children = (
+				3D3716C41879A0A2007277DD /* .gitignore */,
+				3D3716C51879A0A2007277DD /* interval_tree.cc */,
+				3D3716C61879A0A2007277DD /* interval_tree.h */,
+				3D3716C71879A0A2007277DD /* LICENSE */,
+				3D3716C81879A0A2007277DD /* Makefile */,
+				3D3716C91879A0A2007277DD /* misc.h */,
+				3D3716CA1879A0A2007277DD /* old.sets.hpp */,
+				3D3716CB1879A0A2007277DD /* README */,
+				3D3716CC1879A0A2007277DD /* RedBlackTree.cc */,
+				3D3716CD1879A0A2007277DD /* RedBlackTree.h */,
+				3D3716CE1879A0A2007277DD /* sets.hpp */,
+				3D3716CF1879A0A2007277DD /* TemplateStack.hpp */,
+				3D3716D01879A0A2007277DD /* test.cc */,
+				3D3716D11879A0A2007277DD /* tree_test.tcl */,
+			);
+			name = "red-black-and-interval-trees";
+			path = "External/red-black-and-interval-trees";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D3716BB18799FF8007277DD /* main.cpp in Sources */,
+				3D3716D61879A0F9007277DD /* interval_tree.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
